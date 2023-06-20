@@ -36,6 +36,8 @@ class Window(QWidget):
         font.setPointSize(40)
         self.label.setFont(font)
 
+        
+
 
 def application():
     app = QApplication(sys.argv)
